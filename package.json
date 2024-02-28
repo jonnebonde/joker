@@ -1,6 +1,6 @@
 {
   "name": "jonnebonde_joker",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "An app that tells jokes in terminal with testing",
   "type": "module",
   "main": "js/index.js",
