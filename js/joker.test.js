@@ -9,5 +9,3 @@ export async function testDadJoke() {
 }
 
 testDadJoke();
-
-console.log('Intentional Formatting Error');
