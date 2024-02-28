@@ -1,0 +1,24 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "An app that tells jokes in terminal with testing",
+  "type": "module",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnebonde/joker.git"
+  },
+  "keywords": [
+    "jokes",
+    "testing"
+  ],
+  "author": "jonne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnebonde/joker/issues"
+  },
+  "homepage": "https://github.com/jonnebonde/joker#readme"
+}
