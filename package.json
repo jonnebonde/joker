@@ -6,7 +6,8 @@
   "main": "js/index.js",
   "scripts": {
     "test": "node js/joker.test.js",
-    "format": "prettier -w **/*.js"
+    "format": "prettier -w **/*.js",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
