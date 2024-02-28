@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jonnebonde/joker/issues"
   },
-  "homepage": "https://github.com/jonnebonde/joker#readme"
+  "homepage": "https://github.com/jonnebonde/joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
