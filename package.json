@@ -1,6 +1,6 @@
 {
   "name": "jonnebonde_joker",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "An app that tells jokes in terminal with testing",
   "type": "module",
   "main": "js/index.js",
@@ -8,7 +8,8 @@
     "test": "node js/joker.test.js",
     "format": "prettier -w **/*.js",
     "lint": "eslint **/*.js",
-    "lint-fix": "eslint **/*.js --cache --fix"
+    "lint-fix": "eslint **/*.js --cache --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,20 @@
   },
   "devDependencies": {
     "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
