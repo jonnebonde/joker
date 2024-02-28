@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jonnebonde/joker#readme",
   "dependencies": {
-    "give-me-a-joke": "^0.5.0",
+    "give-me-a-joke": "^0.5.1",
     "one-liner-joke": "^1.2.2"
   },
   "devDependencies": {
