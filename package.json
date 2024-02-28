@@ -1,12 +1,12 @@
 {
   "name": "joker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An app that tells jokes in terminal with testing",
   "type": "module",
   "main": "js/index.js",
   "scripts": {
     "test": "node js/joker.js",
-    "format" : "prettier -w js/joker.js"
+    "format": "prettier -w js/joker.js"
   },
   "repository": {
     "type": "git",
